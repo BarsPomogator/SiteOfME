@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифровой куратор | Профессиональная самопрезентация</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Цифровой куратор</div>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="services.html" class="nav-link">Услуги</a>
+                <a href="cases.html" class="nav-link">Кейсы</a>
+                <a href="contacts.html" class="nav-link">Контакты</a>
+            </nav>
+        </header>
+        
+        <main class="main-content">
+            <section class="profile-section">
+                <img src="images/profile.jpg" alt="Цифровой куратор" class="profile-image floating" id="profileImage">
+                <button class="about-btn" id="aboutBtn">Обо мне</button>
+                
+                <!-- Модальное окно "Обо мне" -->
+                <div class="modal" id="aboutModal">
+                    <div class="modal-content">
+                        <button class="modal-close" id="aboutClose">&times;</button>
+                        <h3>Обо мне</h3>
+                        <p>Я - профессиональный цифровой куратор с более чем 7-летним опытом работы в области управления цифровым контентом, стратегического планирования и оптимизации онлайн-присутствия.</p>
+                        <p>Моя специализация включает:</p>
+                        <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
+                            <li>Анализ и структурирование цифровых активов</li>
+                            <li>Разработка стратегий цифрового присутствия</li>
+                            <li>Курирование контент-потоков</li>
+                            <li>Оптимизация цифровых рабочих процессов</li>
+                        </ul>
+                        <p>Работал с клиентами из различных отраслей, включая IT, образование, искусство и корпоративный сектор.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="info-section">
+                <h1>Арсений М.</h1>
+                <h2>Профессиональный цифровой куратор</h2>
+                <p>Превращаю цифровой хаос в упорядоченные системы. Создаю стратегии цифрового присутствия, которые работают на ваши цели. Оптимизирую контент-потоки и повышаю эффективность вашего онлайн-взаимодействия.</p>
+                <button class="cta-button" id="pricingBtn">Подробная информация</button>
+                
+                <!-- Модальное окно с ценами -->
+                <div class="modal" id="pricingModal">
+                    <div class="modal-content">
+                        <button class="modal-close" id="pricingClose">&times;</button>
+                        <h3>Стоимость услуг</h3>
+                        <p>Предлагаю гибкие тарифы в зависимости от объема и сложности проекта. Ниже приведены базовые расценки:</p>
+                        
+                        <div class="price-list">
+                            <div class="price-item">
+                                <span class="price-service">Консультация (1 час)</span>
+                                <span class="price-amount">5 000 ₽</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="price-service">Аудит цифровых активов</span>
+                                <span class="price-amount">от 15 000 ₽</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="price-service">Разработка стратегии</span>
+                                <span class="price-amount">от 25 000 ₽</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="price-service">Полное сопровождение (месяц)</span>
+                                <span class="price-amount">от 50 000 ₽</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="price-service">Индивидуальное обучение</span>
+                                <span class="price-amount">30 000 ₽/мес</span>
+                            </div>
+                        </div>
+                        
+                        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: var(--secondary);">* Точная стоимость рассчитывается индивидуально после анализа ваших потребностей.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>© 2025 Цифровой куратор. Все права защищены.</p>
+            <p style="margin-top: 0.5rem;" class="pulse">Свяжитесь со мной: curator@digital.example | +7 (XXX) XXX-XX-XX</p>
+        </footer>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
